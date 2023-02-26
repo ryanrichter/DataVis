@@ -1,0 +1,68 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+}
+
+h3 {
+  margin-top: -40px;
+}
+
+/* Axes */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #333;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+.axis text {
+  font-size: 13px;
+  fill: #6b6b6b;
+}
+.axis-title {
+  font-size: 13px;
+  fill: #888;
+}
+.x-axis .domain {
+  stroke: #8693a0;
+}
+.y-axis .domain {
+  display: none;
+}
+
+.chart-area {
+  fill: #e9eff5;
+}
+.chart-line {
+  fill: none;
+  stroke: #517390;
+  stroke-width: 2px;
+}
+
+.bar {
+  fill: #4682b4;
+  shape-rendering: crispEdges;
+}
+
+.top-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.mid-container {
+  display: flex;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+.source {
+  font-size: 10px;
+  color: #888;
+}
