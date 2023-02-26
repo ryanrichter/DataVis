@@ -1,1 +1,1 @@
-# D3 Interactive Scatter Plot
+# Project 1 - Out of this World
